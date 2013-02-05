@@ -405,15 +405,16 @@ Update 2012-12-28:
 -click sur une cellule => detail, puis back => retour tout en haut de la liste, le scroll n'est pas conservé => OK
 -mettre un bouton pour switcher entre les flux online et offline (offline par défaut) => OK
 -essayer d'initialiser l'appli avec les données en ligne, et si on detecte une erreur de connexion, charger les données locales => OK
--rajouter l’attribut target=”_blank” aux ancres pour que le liens s'ouvrent en-dehors de l'appli => OK
+-rajouter l’attribut target="_blank" aux ancres pour que le liens s'ouvrent en-dehors de l'appli => OK
 -utiliser une liste à 1 cellule par ligne pour le flux 3 => OK
 -premiere page avec thumb + text => OK
 -photos se chargent "en commencant par le bas" au lieu du haut => OK
+-compilation PhoneGap => OK
+-mise à jour AppStore Apple, Google & windows => OK
 -faire une homepage & enlever les 5 première vignettes du flux principal ?
 -on peut sans doute encore améliorer la mise en page des 2 1eres lignes... a discuter avec pol
 -une petite interpolation sur les images cropées ?
--compilation PhoneGap
--mise à jour AppStore Apple, Google & windows
+-freeze sur iphone 4S lors du passage en mode paysage => mis en mode portrait seulement
 
 Check 02/01/12 Alex & Yannick
 -notif nouveaux item activée par click
