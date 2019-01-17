@@ -16,7 +16,7 @@
 
 Description: a technological news application gathering feeds of several reference websites. Works either as a webapp or as a native app.
 Tested targets: JavaScript, and native targets via PhoneGap (iOS, Android, BlackBerry, Windows Phone...)
-Online demo: http://demos.silexlabs.org/cocktail/FrenchTech/
+Online demo: http://raphael.harmel.free.fr/cocktail/FrenchTech/WebApp_js.html
 Status: source code up to date.
 
 
@@ -61,33 +61,33 @@ to iPhon.fr, FrAndroid and frenchiPhone
 
 FRENCH
 
-Cette application rassemble une sÈlection d'informations technologiques en FranÁais.
-Les flux d'informations sÈlectionnÈs sont: iPhon.fr, FrAndroid and frenchiPhone.
+Cette application rassemble une s√©lection d'informations technologiques en Fran√ßais.
+Les flux d'informations s√©lectionn√©s sont: iPhon.fr, FrAndroid and frenchiPhone.
 
-Elle inclut une navigation "touch" qui permet de passer d'un flux ‡ l'autre par glissement d'un doigt.
-Chaque information dÈtaillÈe peut Ítre accÈdÈe en cliquant sur l'icone correspondante.
-
-
-Application proposÈe gratuitement par Intermedia Paris
-
-Intermedia Paris propose des technologies cross-plateformes afin de dÈvelopper des application web dÈployable sur de multiples plateformes (mobile, tablettes, desktop, et TV).
-
-N'hÈsitez pas ‡ nous contacter si vous avez ce type de besoin: contact@im-paris.fr
+Elle inclut une navigation "touch" qui permet de passer d'un flux √† l'autre par glissement d'un doigt.
+Chaque information d√©taill√©e peut √™tre acc√©d√©e en cliquant sur l'icone correspondante.
 
 
-Mots clÈs:
+Application propos√©e gratuitement par Intermedia Paris
+
+Intermedia Paris propose des technologies cross-plateformes afin de d√©velopper des application web d√©ployable sur de multiples plateformes (mobile, tablettes, desktop, et TV).
+
+N'h√©sitez pas √† nous contacter si vous avez ce type de besoin: contact@im-paris.fr
+
+
+Mots cl√©s:
 French,Tech,Intermedia,Paris,France,technologie,iOS,Android,iPhon,FrAndroid,frenchiPhone
 
 contact@im-paris.fr
 Support URL http://www.intermedia-paris.fr
 
 1.0.1
-Mise ‡ jour des icÙnes et des splashscreens
+Mise √† jour des ic√¥nes et des splashscreens
 
 1.0.2
 Android
 -gestion du bouton de retour
--erreur rÈsolue: "the connection to the server was unsuccessful"
+-erreur r√©solue: "the connection to the server was unsuccessful"
 
 2.0.0
 Modification des flux de Techcrunch,Silicon Sentier,FrenchWeb
@@ -109,10 +109,10 @@ http://www.silexlabs.org/feed/ep_posts_in_category/?cat=646&format=rss2
 Flux d'un post specifique:
 http://www.silexlabs.org/feed/ep_get_item_info?p=130523&format=rss2
 
-Flux rÈduit en prÈcisant un nombre d'items
+Flux r√©duit en pr√©cisant un nombre d'items
 http://www.silexlabs.org/feed/ep_posts_small/?cat=646&format=rss2&posts_per_page=10&paged=2
 
-Flux simplifiÈ:
+Flux simplifi√©:
 http://www.silexlabs.org/feed/?cat=642&format=rss2
 
 http://www.silexlabs.org/feed/ep_posts_small/?cat=642&format=rss2
@@ -125,7 +125,7 @@ Selected Feeds:
      => title
 	 => pubDate
      => dc:creator
-     => description => rÈsumÈ
+     => description => r√©sum√©
      => content:encoded => thumb + html
 > http://feedproxy.google.com/francaistechcrunch => http://fr.techcrunch.com/feed/
  => plus de version francaise depuis octobre 2012, anglais uniquement
@@ -134,38 +134,38 @@ Selected Feeds:
      => title
  	 => pubDate
      => dc:creator
-     => description => thumb + rÈsumÈ avec html
+     => description => thumb + r√©sum√© avec html
      => content:encoded => html
 > http://siliconsentier.org/feed/
  => item
      => title
  	 => pubDate
 	 => dc:creator
-     => description => rÈsumÈ avec html
+     => description => r√©sum√© avec html
      => content:encoded => thumb + html
 > http://www.lafonderie-idf.fr/feed
  => item
      => title
  	 => pubDate
 	 => dc:creator
-     => description => thumb + rÈsumÈ avec html
+     => description => thumb + r√©sum√© avec html
      => content:encoded => thumb + html
 > http://www.capdigital.com/feed/
  => item
      => title
  	 => pubDate
 	 => dc:creator
-     => description => rÈsumÈ sans html
+     => description => r√©sum√© sans html
      => content:encoded => thumb + html
 
 01net
 http://www.01net.com/rss/RSS_ACTUS_techno.xml
-=> publicitÈs
-=> pas de contenu, uniquement une trop brËve description
+=> publicit√©s
+=> pas de contenu, uniquement une trop br√®ve description
 	 
 Le Monde technologies:
 http://www.lemonde.fr/rss/tag/technologies.xml
-=> publicitÈs
+=> publicit√©s
 
 Google Science/High Tech:
 http://news.google.fr/news?pz=1&cf=all&ned=fr&hl=fr&topic=t&output=rss
@@ -174,27 +174,27 @@ http://news.google.fr/news?pz=1&cf=all&ned=fr&hl=fr&topic=t&output=rss
  	 => pubDate
 	 => link
 	 => category
-     => description => rÈsumÈ avec html
+     => description => r√©sum√© avec html
 
 Yahoo technologies:
 http://fr.news.yahoo.com/rss/technologies
 => ne sort que 3 items
-=> apparement pas d'API pour generer des flux rss customs afin de rÈcupÈrer plus d'informations.
+=> apparement pas d'API pour generer des flux rss customs afin de r√©cup√©rer plus d'informations.
 
 FrenchiPhone
 http://feeds.feedburner.com/IphoneFranceFrFrenchiphone
 http://www.frenchiphone.com/feed/
-=> flux paginÈs
+=> flux pagin√©s
 
 iPhon.fr
 http://feeds.feedburner.com/IphonfrBlogIphone
 http://www.iphon.fr/feed/rss2
-=> pas de flux paginÈs
+=> pas de flux pagin√©s
 
 FrAndroid
 http://feeds.feedburner.com/Frandroid
 http://www.frandroid.com/feed
-=> flux paginÈs
+=> flux pagin√©s
 
 wordpress parameters:
 http://codex.wordpress.org/Class_Reference/WP_Query
@@ -244,11 +244,11 @@ header et sous-header
 
 Q/A:
 -loadingView: vue avec animation de chargement => oui, utiliser actuate
--swippableListView :contient trois vues diffÈrentes des memes donnÈes => OK
--background bien utilisÈ => OK
+-swippableListView :contient trois vues diff√©rentes des memes donn√©es => OK
+-background bien utilis√© => OK
  => domElement.style.backgroundImage = [BackgroundImageStyleValue.image(ImageValue.url("assets/header.jpg"))];
--remplacement du titre du header fait de maniËre correcte => OK mais pas pratique => bug notÈ
--ApplicationController::goBackToListView ‡ retirer et ‡ laisser uniquement dans le ViewManager => OK
+-remplacement du titre du header fait de mani√®re correcte => OK mais pas pratique => bug not√©
+-ApplicationController::goBackToListView √† retirer et √† laisser uniquement dans le ViewManager => OK
 -How to remove text cursor on non-editable texts => firefox bug, not happening in chrome
 -scrollbar visible when using swippable view => corrected by using overflow=hidden on body
 -best way to update an image url without keeping visually the previous one (cf. detail view) => using visible none or loader image
@@ -295,26 +295,26 @@ To Do Alex 30/03/2012
 -titre: laisser uniquement deux lignes => OK
 -afficher seulement thumbs dans la home page => OK
 -random sur les fade-in des images => OK
--barres de sÈparation verticales => OK: border js natif utilisÈ
--aligner les cells sur la ligne => quantitÈ de texte rÈduite: OK ?
--Loading screen au dÈbut => bug cocktail qui override les valeurs du zindex: mis en standby car rÈglÈ dans la version js
--crop thumbs des thumblist & thumbtext list: utiliser des masques html => deniers ajustements ‡ faire => OK
+-barres de s√©paration verticales => OK: border js natif utilis√©
+-aligner les cells sur la ligne => quantit√© de texte r√©duite: OK ?
+-Loading screen au d√©but => bug cocktail qui override les valeurs du zindex: mis en standby car r√©gl√© dans la version js
+-crop thumbs des thumblist & thumbtext list: utiliser des masques html => deniers ajustements √† faire => OK
 -swippable view scroll non fonctionnel sur android & Firefox => OK
 -bottom lading screen is now fully visible on all targets before loading new data => OK
 
 To do Alex pre fine tuning:
 -loading screen n'apparait pas en mode offline
-	=> il apparait bien comme prÈvu, mais disparait au moment de la construction du DOM. Pour le voir, aller sur l'appli ‡ partir d'un autre site, mais non en faisant un refresh
+	=> il apparait bien comme pr√©vu, mais disparait au moment de la construction du DOM. Pour le voir, aller sur l'appli √† partir d'un autre site, mais non en faisant un refresh
 -scroll sous android => OK
 => tests alex
 -scroll detail view => OK
 -resize => OK
--passer le scroll en utilisant le x/y => abandonnnÈ aprËs discussion avec Alex car bientot supportÈ par cocktail
+-passer le scroll en utilisant le x/y => abandonnn√© apr√®s discussion avec Alex car bientot support√© par cocktail
 -animation menu => OK, revoir le code avec alex ?
 -couleurs textes
 -images header => OK
 -taille & couleurs border => OK
--retour ‡ la ligne liste text => OK
+-retour √† la ligne liste text => OK
 -thumbs:
   => redimensionnement au resize => OK
   => padding => OK
@@ -322,152 +322,152 @@ To do Alex pre fine tuning:
 => Pol
 -affiner le scroll si tremblement => OK
 -relase scroll vertical => OK
--items de menu latÈraux a mettre avec une police moins grande et a moitiÈ, avec ombre visuelle
+-items de menu lat√©raux a mettre avec une police moins grande et a moiti√©, avec ombre visuelle
 
 
 Feedback Pol & Alex 24/04/2012
 
 Scroll swippable view
  => scroll horizontal a ameliorer (cf. Android Market) => OK
- => release scroll vertical basÈ sur l'acceleration => OK
- => cellules clickÈes pendant le scroll => OK
+ => release scroll vertical bas√© sur l'acceleration => OK
+ => cellules click√©es pendant le scroll => OK
 
 Pol:
  => tile header => OK
  => tile menu => OK
- => image header a revoir => retirÈe => OK
+ => image header a revoir => retir√©e => OK
  => background cellules texte => OK
 
 Menu:
- => police ‡ changer:
-     => donner la police ‡ pol => OK
+ => police √† changer:
+     => donner la police √† pol => OK
      => enlever le gras => OK
  => copier le menu d'android market
-     => dÈplacement => OK
-     => menu latÈraux
+     => d√©placement => OK
+     => menu lat√©raux
        => position => OK
        => ombre
- => couleur du bouton clickÈ ‡ retirer => OK: propriÈtÈs css non-gÈnÈriques utilisÈes
+ => couleur du bouton click√© √† retirer => OK: propri√©t√©s css non-g√©n√©riques utilis√©es
  => bug release menu => OK
 
  
 Point 27/04/2012
 => menu cliquable a finaliser => OK
 => redimensionement
-	=> propriÈtÈ du viewport "height=device-height" retirÈe, rÈsultat hide url bar ne fonctionne plus car impacte le redimmensionnement en mode paysage
+	=> propri√©t√© du viewport "height=device-height" retir√©e, r√©sultat hide url bar ne fonctionne plus car impacte le redimmensionnement en mode paysage
 	=> OK
 App native via PhoneGap:
 => bottom loading screen non visible => OK
-=> les flux locaux ne se chargent pas => RÈglÈ en utilisant les fichiers locaux comme ressources haxe => OK
+=> les flux locaux ne se chargent pas => R√©gl√© en utilisant les fichiers locaux comme ressources haxe => OK
 
 Point 04/05/2012
 Pol:
--Toujours des donnÈes locales ?
- Le bandeau de haut de page est tellement rÈdhibitoire que si nous devons utiliser ces donnÈes il faudrait mettre ‡ jour les rÈfÈrences en terme de feed
+-Toujours des donn√©es locales ?
+ Le bandeau de haut de page est tellement r√©dhibitoire que si nous devons utiliser ces donn√©es il faudrait mettre √† jour les r√©f√©rences en terme de feed
  => OK
--Par ailleurs les "anims" sont vraiment heurtÈes au sens ou ce n'est pas fluide => OK
--La version native rame sa mËre => OK
+-Par ailleurs les "anims" sont vraiment heurt√©es au sens ou ce n'est pas fluide => OK
+-La version native rame sa m√®re => OK
 
 Alex:
-- quand le detail contient une image large, au retour a la liste ca bug => problËme avec les iframes & images trop larges => OK
-- la barre d adresse du navigateur est a moitier remontee seulement => complËtement dÈsactivÈ => OK
+- quand le detail contient une image large, au retour a la liste ca bug => probl√®me avec les iframes & images trop larges => OK
+- la barre d adresse du navigateur est a moitier remontee seulement => compl√®tement d√©sactiv√© => OK
 - le scroll vertical et son acceleration sont moins bien qu'avant => OK
 
 Raph:
 -iPhone:
-	=> l'inertie du scroll n'est plus utilisable dans la swippable view une fois qu'on a cliquÈ dans une vue dÈtail => OK
-	=> la list text n'a pas pas les lignes de sÈparation grises => OK
-	=> en arrivant sur l'app d'un lien externe, l'affichage bugue (rÈglÈ par le resize) => non reproductible
+	=> l'inertie du scroll n'est plus utilisable dans la swippable view une fois qu'on a cliqu√© dans une vue d√©tail => OK
+	=> la list text n'a pas pas les lignes de s√©paration grises => OK
+	=> en arrivant sur l'app d'un lien externe, l'affichage bugue (r√©gl√© par le resize) => non reproductible
 -Navigateur desktop:
-	=> une scrollbar apparait de la hauteur de la page => rÈglÈ en metant le style display=block au lieu de inline-block sur la swippableView => OK
--GÈnÈrique:
-	=> quand on atteint la fin d'un contenu, le scroll s'arrete net. Il devrait rebondire avec un easeInOut => rÈglÈ en utilisant le scroll natif => OK
+	=> une scrollbar apparait de la hauteur de la page => r√©gl√© en metant le style display=block au lieu de inline-block sur la swippableView => OK
+-G√©n√©rique:
+	=> quand on atteint la fin d'un contenu, le scroll s'arrete net. Il devrait rebondire avec un easeInOut => r√©gl√© en utilisant le scroll natif => OK
 
-FonctionnalitÈs manquantes
+Fonctionnalit√©s manquantes
 -bouton retour Android
- => dans la vue detail, devrait permettre de revenir ‡ la homepage => OK
+ => dans la vue detail, devrait permettre de revenir √† la homepage => OK
  => dans la homepage, devrait permettre de sortir de l'appli => OK
--quand on revient ‡ la vue liste, celle-ci ne devrait pas avoir changÈ de position => OK
+-quand on revient √† la vue liste, celle-ci ne devrait pas avoir chang√© de position => OK
  => ne pas retirer la swippableView du dom, mais la masquer 
- => stocker la position du scroll dans une variable et la rÈaffecter au chargement
+ => stocker la position du scroll dans une variable et la r√©affecter au chargement
 -error screen
 
-AmÈliorations:
--sur iPhone 4S, l'appli met 25 secondes ‡ se lancer, et beaucoup moins de temps sur les autres appareil (environ 5 sec au total)
-=> rÈglÈ grace ‡ la nouvelle version de Haxe 2.10
--items de menu latÈraux a mettre avec une ombre visuelle
+Am√©liorations:
+-sur iPhone 4S, l'appli met 25 secondes √† se lancer, et beaucoup moins de temps sur les autres appareil (environ 5 sec au total)
+=> r√©gl√© grace √† la nouvelle version de Haxe 2.10
+-items de menu lat√©raux a mettre avec une ombre visuelle
 	
 Update 2012-12-28:
 -changed feeds to iPhon.fr, FrAndroid, frenchiPhone => OK
--recompiler avec la derniËre version de Haxe et en utilisant les flux on-line => voir les performances et la quantitÈ de donnÈes => OK
+-recompiler avec la derni√®re version de Haxe et en utilisant les flux on-line => voir les performances et la quantit√© de donn√©es => OK
 -remplacer les flux foireux (trop lents, images trop grosses...) par d'autres. => OK
 -mettre toutes les images en dur dans l'application => OK
--click sur une cellule => detail, puis back => retour tout en haut de la liste, le scroll n'est pas conservÈ => OK
--mettre un bouton pour switcher entre les flux online et offline (offline par dÈfaut) => OK
--essayer d'initialiser l'appli avec les donnÈes en ligne, et si on detecte une erreur de connexion, charger les donnÈes locales => OK
--rajouter líattribut target="_blank" aux ancres pour que le liens s'ouvrent en-dehors de l'appli => OK
--utiliser une liste ‡ 1 cellule par ligne pour le flux 3 => OK
+-click sur une cellule => detail, puis back => retour tout en haut de la liste, le scroll n'est pas conserv√© => OK
+-mettre un bouton pour switcher entre les flux online et offline (offline par d√©faut) => OK
+-essayer d'initialiser l'appli avec les donn√©es en ligne, et si on detecte une erreur de connexion, charger les donn√©es locales => OK
+-rajouter l¬íattribut target="_blank" aux ancres pour que le liens s'ouvrent en-dehors de l'appli => OK
+-utiliser une liste √† 1 cellule par ligne pour le flux 3 => OK
 -premiere page avec thumb + text => OK
 -photos se chargent "en commencant par le bas" au lieu du haut => OK
 -compilation PhoneGap => OK
--mise ‡ jour AppStore Apple, Google & windows => OK
--faire une homepage & enlever les 5 premiËre vignettes du flux principal ?
--on peut sans doute encore amÈliorer la mise en page des 2 1eres lignes... a discuter avec pol
--une petite interpolation sur les images cropÈes ?
+-mise √† jour AppStore Apple, Google & windows => OK
+-faire une homepage & enlever les 5 premi√®re vignettes du flux principal ?
+-on peut sans doute encore am√©liorer la mise en page des 2 1eres lignes... a discuter avec pol
+-une petite interpolation sur les images crop√©es ?
 -freeze sur iphone 4S lors du passage en mode paysage => mis en mode portrait seulement
 
 Check 02/01/12 Alex & Yannick
--notif nouveaux item activÈe par click
+-notif nouveaux item activ√©e par click
 -stockage local
 -slide images thumbnail
 
 -------------------------------------------------------------------------------------------------------------------------
 
 Bugs restants:
--en mode online, quand on scroll rapidement vers le bas et de multiple fois, l'appli se met ‡ charger des flux en continu. Le problËme est rËglÈ dËs qu'on scroll vers le haut
+-en mode online, quand on scroll rapidement vers le bas et de multiple fois, l'appli se met √† charger des flux en continu. Le probl√®me est r√®gl√© d√®s qu'on scroll vers le haut
 -Galaxy note: le bouton de menu silicon sentier ne marche pas
--auto-load rss: pour le flux silicon sentier, il y a a rÈguliËrement deux cellules avec un contenu identique => rÈglÈ
+-auto-load rss: pour le flux silicon sentier, il y a a r√©guli√®rement deux cellules avec un contenu identique => r√©gl√©
 
 -------------------------------------------------------------------------------------------------------------------------
 	
 Dans le futur
--Pouvoir switcher entre les flux locaux & online => obsolËte
+-Pouvoir switcher entre les flux locaux & online => obsol√®te
 	=> par click sur texte du header
 	=> avec un bouton dans le header
 -version online
-	=> Chargement des flux les plus rÈcents
+	=> Chargement des flux les plus r√©cents
 		=> par scroll en haut de la liste
 		=> avec un bouton refresh
-	=> amÈlioration des performances
-		=> systËme de cache des flux rss au niveau du serveur Silex afin de limiter la dÈpendance au temps de gÈnÈration de FrenchWeb et autres
-		=> ne pas charger automatiquement du nouveau contenu une fois le bas de la liste atteint, mais afficher le text "load more" ou une icone, chargeant davantage de donnÈes au click
-		=> parsage du xml ‡ amÈliorer ? => aprËs mesure, ce n'est pas la qu'il y a la plus grosse perte de temps
+	=> am√©lioration des performances
+		=> syst√®me de cache des flux rss au niveau du serveur Silex afin de limiter la d√©pendance au temps de g√©n√©ration de FrenchWeb et autres
+		=> ne pas charger automatiquement du nouveau contenu une fois le bas de la liste atteint, mais afficher le text "load more" ou une icone, chargeant davantage de donn√©es au click
+		=> parsage du xml √† am√©liorer ? => apr√®s mesure, ce n'est pas la qu'il y a la plus grosse perte de temps
 		  => utiliser XML.Fast
-		  => parser les Xml sur le server, transmission ‡ l'appli en haxe remoting
-		  => stoker les xml sur le serveur pour amÈliorer la vitesse de chargement
-		=> ajout de nouvelles cellules au DOM en detachant la liste parent puis en la rÈatachant
-		  => gain de 50% du temps moyen de creation du DOM (initial: 140ms - aprËs optim: 70ms)
--CrÈer une Home page contenant les icÙnes de chaque flux rss
-	=> un click sur le Header ramËne ‡ la homepage
+		  => parser les Xml sur le server, transmission √† l'appli en haxe remoting
+		  => stoker les xml sur le serveur pour am√©liorer la vitesse de chargement
+		=> ajout de nouvelles cellules au DOM en detachant la liste parent puis en la r√©atachant
+		  => gain de 50% du temps moyen de creation du DOM (initial: 140ms - apr√®s optim: 70ms)
+-Cr√©er une Home page contenant les ic√¥nes de chaque flux rss
+	=> un click sur le Header ram√®ne √† la homepage
 -Rendre le design responsive
-	=> Ètape 1 (rapide): changer le nombre de cellules en fonction de la taille de l'Ècran
-	=> Ètape 2 (rapide): changer la taille des cellules
-	=> Ètape 3 (long): faire un design competement adaptÈ ‡ l'iPad
+	=> √©tape 1 (rapide): changer le nombre de cellules en fonction de la taille de l'√©cran
+	=> √©tape 2 (rapide): changer la taille des cellules
+	=> √©tape 3 (long): faire un design competement adapt√© √† l'iPad
 
-Remarques suite ‡ une comparaison avec les application d'information existantes sur iPhone (Financial Times, Le Monde, France 24, France TV Info):
+Remarques suite √† une comparaison avec les application d'information existantes sur iPhone (Financial Times, Le Monde, France 24, France TV Info):
 -Dans la vue detail, ajouter la date
 -Il y a toujours une cellule par ligne, et jamais plus
 -Aucune ne fonctionne en mode paysage
 -effet rebond haut et bas: jouer avec la position plutot que le scroll
--Les listes text sont pratiquement uniquement utilisÈes pour les catÈgories
-	=> remplacer la list texte par une liste de cellules TextThumb avec un ÈlÈment par ligne sur les mobiles
+-Les listes text sont pratiquement uniquement utilis√©es pour les cat√©gories
+	=> remplacer la list texte par une liste de cellules TextThumb avec un √©l√©ment par ligne sur les mobiles
 -loading screen
 	=> reprendre le design de celui de france 24
-		=> petit carrÈ ‡ bord rond central, transparence ‡ 50%, contenant une wheel
+		=> petit carr√© √† bord rond central, transparence √† 50%, contenant une wheel
 -Vue detail:
-	=> pour lire les articles suivants et prÈcÈdents
-		=> ajouter des boutons avec icones flËches 
-		=> scroll latÈral
+	=> pour lire les articles suivants et pr√©c√©dents
+		=> ajouter des boutons avec icones fl√®ches 
+		=> scroll lat√©ral
 
 -------------------------------------------------------------------------------------------------------------------------
 	
